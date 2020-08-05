@@ -19,10 +19,20 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
+      
+    - name: Cache
+      uses: actions/cache@v2.1.0
+      with:
+        key: node_modules
+        path: node_modules
 
     - name: Setup Node.js environment
       uses: actions/setup-node@v2.1.1
-
+      
+    - name: Install node modules
+      run: |
+        npm install
+        npm install babel-cli@6 babel-preset-react-app@3
 
     # Runs a set of commands using the runners shell
     - name: Build the site

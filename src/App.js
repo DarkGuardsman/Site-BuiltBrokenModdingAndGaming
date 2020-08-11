@@ -15,7 +15,7 @@ class App extends React.Component {
     }
 
     navlink(name, dest) {
-        return <a className="Nav" href="#" onClick={() => {this.handleClick(dest)}}>{name}</a>
+        return <a className="Nav" href={dest} onClick={() => {this.handleClick(dest)}}>{name}</a>
     }
 
  render() {

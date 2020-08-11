@@ -1,5 +1,56 @@
 .App {
   text-align: center;
+  display: flex;
+}
+
+*,
+:after,
+:before {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Header {
+    background-color: rgba(22, 22, 42, 0.50);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Content {
+    margin-top: 80px;
+}
+
+.Logo {
+    text-decoration: none;
+    color: #fff;
+}
+
+.Footer {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(22, 22, 22, 0.5);
+    display: flex;
+}
+
+a.Nav {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.NavLink {
+    display: flex;
 }
 
 body {
@@ -10,6 +61,10 @@ body {
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.Motto {
+    padding-left: 65px;
 }
 
 @media (prefers-reduced-motion: no-preference) {

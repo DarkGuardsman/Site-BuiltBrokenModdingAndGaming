@@ -15,3 +15,18 @@ ReactDOM.render(
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
+
+/*
+ * Header:
+ *      Logo Link Link Link Link
+ *
+ *
+ *  Content:
+ *      Slides about as other options are selected
+ *      Needs to be given events by the Header... or Footer, hmm...
+ *
+ *
+ *
+ * Footer:
+ *      Copyright GH_Link, blah
+ */

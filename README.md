@@ -1,3 +1,12 @@
+# About
+
+Repo for BBMG site
+
+Link: https://darkguardsman.github.io/Site-BuiltBrokenModdingAndGaming/
+
+
+# Create React App Stuff
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
